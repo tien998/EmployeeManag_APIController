@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "483rAPI2cyRshY5A5ixB953qffwvBmDivf5pMefCBfA=",
+  "Source": "EmpManagement_APIController",
+  "BasePath": "_content/EmpManagement_APIController",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EmpManagement_APIController/wwwroot",
+      "Source": "EmpManagement_APIController",
+      "ContentRoot": "/home/tien/Desktop/EmpManagement_APIController/wwwroot/",
+      "BasePath": "_content/EmpManagement_APIController",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/tien/Desktop/EmpManagement_APIController/wwwroot/index.html",
+      "SourceId": "EmpManagement_APIController",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/tien/Desktop/EmpManagement_APIController/wwwroot/",
+      "BasePath": "_content/EmpManagement_APIController",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
