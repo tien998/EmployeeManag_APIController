@@ -3,7 +3,6 @@
 This is an `API` built using `.NET 6` that retrieves `SQL` data using `ADO` and is tested using `Swagger`.
 
 To create a new database, execute the following SQL command:
-(
 
 CREATE DATABASE Management
 
@@ -27,7 +26,7 @@ INSERT INTO Employees(NAMES, DateOfBirth) VALUES (N'Sở Khanh', '1998-10-9')
 
 INSERT INTO Employees(NAMES, DateOfBirth) VALUES (N'Tú Bà', '1988-5-9')
 
-)
+
 
 # Explanation:
 
