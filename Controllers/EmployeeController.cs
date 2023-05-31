@@ -25,12 +25,15 @@ public class EmployeeController : ControllerBase
     }
 
     //put
-    [HttpPut]
-    public IActionResult Update(Employee e)
+    [HttpPut("{id}")]
+    public IActionResult Update(int id, Employee e)
     {
-        // e = await EmployDb.Get(id);
+        var emp = EmployDb.Get(id);
+        if(emp.Id != id)
+        {
+            return BadRequest();
+        }
         EmployDb.Update(e);
-        Debug.WriteLine($"Employee: {e.ID} : {e.Name} : {e.DateOfBirth}");
         return NoContent();
     }
     //delete

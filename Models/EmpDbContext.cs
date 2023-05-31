@@ -31,7 +31,6 @@ public class EmployDb
         adapter!.SelectCommand = new SqlCommand("Select * from Employees", connection);
         MappingAndFill();
         connection!.Open();
-        empTable!.WriteXml("Xml/EmpTable.xml");
         List<Employee> employees = new List<Employee>();
 
         // Sử dụng vòng lặp để truyền giá trị từ 'DataRowCollection' sang 'List<Employee>'
@@ -60,7 +59,6 @@ public class EmployDb
         nvID.Value = id;
         MappingAndFill();
         adapter.Fill(dataSet!, "Employee");
-        dataSet!.WriteXml("Xml/dataSet.xml");
 
         var e = new Employee();
 
